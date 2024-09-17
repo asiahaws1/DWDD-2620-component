@@ -1,0 +1,22 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/output.css --minify",
+    "watch": "npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  },
+  "devDependencies": {
+    "postcss-cli": "^11.0.0"
+  }
+}
